@@ -1,0 +1,25 @@
+
+
+
+imap jj <esc>
+imap jj <ESC>
+imap kk <ESC>
+map <space> <c-d>
+map mh :tabp<cr>
+map ml :tabn<cr>
+map <F10> :q!<cr>
+nmap <F10> :q!<cr>
+imap <F2> <esc>:w<cr>
+map <F2> :w<cr>
+nnoremap a A
+set spell spelllang=en_us
+setlocal spell spelllang=en_us
+function! Mydate()
+    let datestring = "// " . strftime("%Y%m%d-%H%M%S") 
+    put=datestring
+    echomsg "Date/Time: " . datestring
+endfunction
+map <Leader>d  :call Mydate()<CR>
+
+
+
