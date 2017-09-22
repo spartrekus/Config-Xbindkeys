@@ -1,0 +1,6 @@
+
+hardstatus alwayslastline "%{= Yk}%H %{= yk}%-Lw%{= kG}%50> %n%f* %t %{-}%+Lw%< %=  %{= yk} %l %{= Yk} %0c:%s %d/%m %{-}"
+caption always '%{= kY} %200` %= %100` %='
+
+bindkey -k F1 prev
+bindkey -k F2 next
