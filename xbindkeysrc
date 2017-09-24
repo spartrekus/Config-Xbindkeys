@@ -137,5 +137,13 @@
     m:0x40 + c:52
     Mod4 + y
 
+#######################
+################## Sound
+"amixer -q sset Master 3%-"  
+    m:0x0 + c:122
+    XF86AudioLowerVolume
 
+"amixer -q sset Master 3%+"  
+    m:0x0 + c:123
+    XF86AudioRaiseVolume
 
